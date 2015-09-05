@@ -363,7 +363,8 @@ section h3.section-subheading {
 
 #sponsors .sponsor {
     display: inline-block;
-    max-width: 50%;
+    max-width: 200px;
+    margin: 10px 20px;
 }
 
 #sponsors .btn-xl {
