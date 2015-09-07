@@ -348,6 +348,7 @@ section h3.section-subheading {
     font-family: 'cwTeXHei', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
     font-weight: 400;
+    line-height: 1.7;
 }
 
 @media(min-width:768px) {
@@ -730,12 +731,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #d1d7e1;
 }
 
 ::selection {
     text-shadow: none;
-    background: #65799B;
+    background: #d1d7e1;
 }
 
 img::selection {
