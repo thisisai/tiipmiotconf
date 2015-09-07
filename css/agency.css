@@ -125,6 +125,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #5BAAEC;
     border-radius: 3px;
     text-transform: uppercase;
+    text-align: center;
     font-family: 'cwTeXHei',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -276,7 +277,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background: linear-gradient( #083D56 , transparent 120%), url(../img/internet-of-things.png);
+    background: linear-gradient( #083D56 , transparent 120%), url(../img/internet-of-things.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -345,9 +346,9 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'cwTeXHei', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 20px;
     font-weight: 400;
+    line-height: 1.7;
 }
 
 @media(min-width:768px) {
@@ -369,7 +370,6 @@ section h3.section-subheading {
 
 #sponsors .btn-xl {
     margin-top: 50px;
-    width: 40%;
 }
 
 .timeline {
@@ -585,9 +585,10 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    max-width: 250px;
 }
 
-.team-member h4 {
+.team-member h3 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
@@ -595,6 +596,7 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+    font-size: 18px;
 }
 
 footer {
@@ -729,12 +731,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #d1d7e1;
 }
 
 ::selection {
     text-shadow: none;
-    background: #65799B;
+    background: #d1d7e1;
 }
 
 img::selection {
