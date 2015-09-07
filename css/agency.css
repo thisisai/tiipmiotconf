@@ -125,6 +125,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #5BAAEC;
     border-radius: 3px;
     text-transform: uppercase;
+    text-align: center;
     font-family: 'cwTeXHei',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -276,7 +277,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background: linear-gradient( #083D56 , transparent 120%), url(../img/internet-of-things.png);
+    background: linear-gradient( #083D56 , transparent 120%), url(../img/internet-of-things.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
