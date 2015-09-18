@@ -24,3 +24,11 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('#apply-button').click(function() {
+	$('#form').slideDown("fast");
+});
+
+$('.intro-text').click(function() {
+	$('#form').slideDown("fast");
+});
