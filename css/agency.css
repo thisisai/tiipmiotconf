@@ -709,6 +709,10 @@ footer ul.quicklinks {
     opacity: 0;
 }
 
+#form {
+    display: none;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #d1d7e1;
